@@ -1,0 +1,25 @@
+# node_modules: directorio donde se instalan las dependencias de Node.js
+node_modules/
+
+# Archivos de dependencias generados por npm (package-lock.json)
+package-lock.json
+
+# Archivos generados automáticamente por IDEs y editores de texto
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Archivos de logs y archivos temporales
+*.log
+*.tmp
+
+# Archivos de configuración local que no deben ser compartidos
+.env
+.env.*
+
+# Directorios de construcción o archivos compilados
+/dist/
+/build/
+
+# Dependiendo de tu entorno y tecnologías específicas, puedes añadir reglas adicionales aquí
